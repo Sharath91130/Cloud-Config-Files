@@ -1,0 +1,8 @@
+spring:
+ application:
+  name: OrdePaymentService
+
+
+ cloud:
+  config:
+   uri: http://localhost:8081
