@@ -1,0 +1,15 @@
+server:
+ port: 8082
+spring:
+ application:
+   name: customer-service
+ datasource:
+   url: jdbc:oracle:thin:@10.25.0.46:1541:FCUBTRAIN01
+   driver-class-name: oracle.jdbc.OracleDriver
+   username: CUSTOMDEV
+   password: CUSTOMDEV123
+ jpa:
+   hibernate:
+     ddl-auto: update
+   show-sql: true
+   
